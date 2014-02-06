@@ -11,6 +11,8 @@ Installation
 bower install angular-imagefile
 ```
 
+Install and import dist/angular-imagefile.min.js into your page
+
 QuickStart
 ----------
 
