@@ -29,7 +29,7 @@ This should create a variable in your $scope called "myimage", with the followin
 
 ```javascript
     /*...*/
-    $scope.myimage.toURI();     // This returns a data URI, representing the image.
-    $scope.myimage.data;        // This returns the base64 data of the image. Use it for transport purposes.
-    $scope.myimage.contentType; // This returns the content type of the image, such as image/jpeg or image/png
+    $scope.myimage.toURI();     // returns a data URI, representing the image.
+    $scope.myimage.data;        // the base64 data of the image. Use it for transport purposes.
+    $scope.myimage.contentType; // the content type of the image, such as image/jpeg or image/png
 ```
